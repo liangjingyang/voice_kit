@@ -1,0 +1,173 @@
+insert_conversions:
+
+
+  - regex: \A(符号)?逗号\Z
+    key_code: 43
+  
+  - regex: \A(符号)?句号|(符号)?点\Z
+    key_code: 47
+
+  - regex: \A(符号)?横杠\Z
+    key_code: 27
+  
+  - regex: \A下划线\Z
+    key_code: 27
+    modifier: shift
+
+  - regex: \A空格\Z
+    key_code: 49
+
+  - regex: \A(符号)?冒号\Z
+    key_code: 41
+    modifier: shift
+
+  - regex: \A(符号)?分号\Z
+    key_code: 41
+
+  - regex: \A(符号)?星号\Z
+    key_code: 28
+    modifier: shift
+
+  - regex: \A(符号)?小?括号\Z
+    key_code: 25,29
+    modifier: shift
+    size: 2
+
+semantic_matches:
+  - regex: 
+
+commands:
+  - regex: \A听写\Z
+    command: mode_to_insert
+
+  - regex: \A取消\Z
+    command: cancel
+
+  - regex: \A撤销\Z
+    command: undo
+  
+  - regex: \A重做\Z
+    command: undo
+
+  - regex: \A拷贝\Z
+    command: copy
+
+  - regex: \A粘贴\Z
+    command: paste
+
+  - regex: \A剪切\Z
+    command: cut
+  
+  - regex: \A查找\Z
+    command: find
+
+  - regex: \A新(建|窗口)\Z
+    command: new
+  
+  - regex: \A打开\Z
+    command: open
+
+  - regex: \A保存\Z
+    command: save
+
+  - regex: \A关闭\Z
+    command: close
+  
+  - regex: \A确认退出\Z
+    command: quit
+
+  - regex: \A新(建)?标签(页)?\Z
+    command: new_tab
+
+  - regex: \A全选\Z
+    command: select_all
+  
+  - regex: \A删除\Z
+    command: delete
+
+  - regex: \A大小写\Z
+    command: caps_lock
+
+  - regex: \A切换程序\Z
+    command: swich_app
+
+  - regex: \A切换窗口\Z
+    command: swich_window
+
+key_codes:
+  enter: 76
+  return: 36
+  fn: 63
+  control: 59
+  left_control: 59
+  option: 58
+  left_option: 58
+  command: 55
+  left_command: 55
+  shift: 56
+  left_shift: 56
+  right_shift: 60
+  right_control: 62
+  right_command: 55
+  right_option: 61
+  left: 123
+  right: 124
+  down: 125
+  up: 126
+  home: 115
+  end: 119
+  page_up: 116
+  page_down: 121
+  esc: 53
+  caps_lock: 57
+  space: 49
+  tab: 48
+  delete: 51
+  1: 18
+  2: 19
+  3: 20
+  4: 21
+  5: 23
+  6: 22
+  7: 26
+  8: 28
+  9: 25
+  0: 29
+  "`": 50
+  "[": 33
+  "]": 30
+  "\\": 42
+  ";": 41
+  "'": 39
+  "-": 27
+  "=": 24
+  q: 12
+  w: 13
+  e: 14
+  r: 15
+  t: 17
+  y: 16
+  u: 32
+  i: 34
+  o: 31
+  p: 35
+  a: 0
+  s: 1
+  d: 2
+  f: 3
+  g: 5
+  h: 4
+  j: 38
+  k: 40
+  l: 37
+  z: 6
+  x: 7
+  c: 8
+  v: 9
+  b: 11
+  n: 45
+  m: 46
+  ",": 43
+  ".": 47
+  "/": 44
+  
