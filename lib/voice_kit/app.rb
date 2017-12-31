@@ -1,19 +1,19 @@
 # encoding: utf-8
+
 module VoiceKit
   module App
     @@apps = {}
+
     def self.register(name, klass)
       @@apps[name] = klass
     end
 
     def self.find(app_name)
-      app_class = @@apps[app_name]
-      app_class = VoiceKit::App::System unless app_class
-      return app_class
+      puts "@@apps: #{@@apps}"
+      app_module = @@apps[app_name]
+      app_module = VoiceKit::App::System unless app_module
+      return app_module
     end
-    
-    def hello
-      puts @@apps
-    end
+   
   end
 end
