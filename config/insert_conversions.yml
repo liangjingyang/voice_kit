@@ -1,3 +1,4 @@
+# TODO: merge to commands, two type commands, define in class / key code
 - regex: \A(输入|符号)?逗号\Z
   key_code: 43
 
@@ -7,11 +8,11 @@
 - regex: \A(输入|符号)?横[杠线]\Z
   key_code: 27
 
-- regex: \A(输入)?下划线\Z
+- regex: \A(输入|符号)?下划线\Z
   key_code: 27
   modifier: shift
 
-- regex: \A(输入)?空格\Z
+- regex: \A(输入|符号)?空格\Z
   key_code: 49
 
 - regex: \A(输入|符号)?冒号\Z
