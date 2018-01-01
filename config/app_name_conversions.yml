@@ -1,0 +1,20 @@
+- regex: (vscode|VS code)
+  app_name: Code
+
+- regex: (谷歌浏览器|chrome|google chrome|google浏览器)
+  app_name: Chrome
+
+- regex: 微信
+  app_name: WeChat
+
+- regex: (控制台|命令行)
+  app_name: iTerm2
+
+- regex: 邮箱
+  app_name: Mail
+
+- regex: (文件夹|浏览文件|finder|访达)
+  app_name: Finder
+
+- regex: (as|安卓 studio|android studio)
+  app_name: Android Studio

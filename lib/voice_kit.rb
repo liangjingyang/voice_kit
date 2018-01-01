@@ -4,7 +4,7 @@ require 'chinese_number'
 require 'yaml'
 require "voice_kit/app"
 require "voice_kit/app/system"
-require "voice_kit/app/google_chrome"
+require "voice_kit/app/chrome"
 require "voice_kit/command"
 require "voice_kit/mode"
 require "voice_kit/mode/insert"

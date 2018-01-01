@@ -1,0 +1,18 @@
+chrome:
+  - regex: '后退'
+    command: go_back
+
+  - regex: '前进'
+    command: go_back
+
+  - regex: '刷新'
+    command: go_back
+
+  - regex: '搜索'
+    command: active_input_and_link
+
+  - regex: '激活输入框'
+    command: active_input_and_link
+
+  - regex: '激活链接'
+    command: active_input_and_link

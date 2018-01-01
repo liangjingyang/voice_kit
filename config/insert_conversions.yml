@@ -1,0 +1,109 @@
+- regex: \A(输入|符号)?逗号\Z
+  key_code: 43
+
+- regex: \A(输入|符号)?句号|(输入|符号)?点\Z
+  key_code: 47
+
+- regex: \A(输入|符号)?横[杠线]\Z
+  key_code: 27
+
+- regex: \A(输入)?下划线\Z
+  key_code: 27
+  modifier: shift
+
+- regex: \A(输入)?空格\Z
+  key_code: 49
+
+- regex: \A(输入|符号)?冒号\Z
+  key_code: 41
+  modifier: shift
+
+- regex: \A(输入|符号)?分号\Z
+  key_code: 41
+
+- regex: \A(输入|符号)?星号\Z
+  key_code: 28
+  modifier: shift
+
+- regex: \A(输入|符号)?小?括号\Z
+  key_code: 25,29
+  modifier: shift
+  size: 2
+
+- regex: \A(输入|符号)?[中方]括号\Z
+  key_code: 33,30
+  size: 2
+
+- regex: \A(输入|符号)?[大花]括号\Z
+  key_code: 33,30
+  modifier: shift
+  size: 2
+
+- regex: \A(输入|符号)?加号\Z
+  key_code: 24
+  modifier: shift
+
+- regex: \A(输入|符号)?减号\Z
+  key_code: 27
+  modifier: shift
+
+- regex: \A(输入|符号)?斜杠\Z
+  key_code: 44
+  modifier: shift
+
+- regex: \A(输入|符号)?反斜杠\Z
+  key_code: 42
+  modifier: shift
+
+- regex: \A(输入|符号)?问号\Z
+  key_code: 44
+  modifier: shift
+
+- regex: \A(输入|符号)?竖[杠线]\Z
+  key_code: 42
+  modifier: shift
+
+- regex: \A(输入|符号)?大于号?\Z
+  key_code: 47
+  modifier: shift
+
+- regex: \A(输入|符号)?小于号?\Z
+  key_code: 43
+  modifier: shift
+
+- regex: \A(输入|符号)?波浪号?\Z
+  key_code: 50
+  modifier: shift
+
+- regex: \A(输入|符号)?反引号\Z
+  key_code: 50
+  modifier: shift
+  size: 2
+
+- regex: \A(输入|符号)?[感惊]叹号\Z
+  key_code: 18
+  modifier: shift
+
+- regex: \A(输入|符号)?(at|圈a|爱特)\Z
+  key_code: 19
+  modifier: shift
+
+- regex: \A(输入|符号)?井号\Z
+  key_code: 20
+  modifier: shift
+
+- regex: \A(输入|符号)?美元(符号)?\Z
+  key_code: 21
+  modifier: shift
+
+- regex: \A(输入|符号)?百分号\Z
+  key_code: 23
+  modifier: shift
+
+- regex: \A(输入|符号)?脱字符\Z
+  key_code: 22
+  modifier: shift
+
+- regex: \A(输入|符号)?(and|与和符)\Z
+  key_code: 26
+  modifier: shift

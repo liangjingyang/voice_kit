@@ -9,7 +9,6 @@ module VoiceKit
     end
 
     def self.find(app_name)
-      puts "@@apps: #{@@apps}"
       app_module = @@apps[app_name]
       app_module = VoiceKit::App::System unless app_module
       return app_module

@@ -1,0 +1,114 @@
+file:
+  - regex: \A新(建)?(窗口)?\Z
+    command: new
+  
+  - regex: \A打开\Z
+    command: open
+
+  - regex: \A保存\Z
+    command: save
+
+  - regex: \A关闭(窗口)?\Z
+    command: close
+  
+  - regex: \A确认退出\Z
+    command: quit
+
+  - regex: \A新(建)?标签(页)?\Z
+    command: new_tab
+
+edit:
+  - regex: \A撤销\Z
+    command: undo
+  
+  - regex: \A重做\Z
+    command: undo
+
+  - regex: \A拷贝\Z
+    command: copy
+
+  - regex: \A粘贴\Z
+    command: paste
+
+  - regex: \A剪切\Z
+    command: cut
+  
+  - regex: \A(查找|搜索)\Z
+    command: find
+
+  - regex: \A全选\Z
+    command: select_all
+  
+  - regex: \A删除\Z
+    command: delete
+
+nav:
+  - regex: \A切换窗口\Z
+    command: swich_window
+  
+  - regex: \A[向往]?左(移|移动)?\Z
+    command: left
+
+  - regex: \A[向往]?右(移|移动)?\Z
+    command: right
+
+  - regex: \A[向往]?上(移|移动)?\Z
+    command: up
+
+  - regex: \A[向往]?下(移|移动)?\Z
+    command: down
+
+  - regex: \A[向往]?上翻页?\Z
+    command: page_up
+
+  - regex: \A[向往]?下翻页?\Z
+    command: page_down
+
+  - regex: \A(移动)?到?行首\Z
+    command: home
+
+  - regex: \A(移动)?到?行尾\Z
+    command: end
+
+  - regex: \A(移动)?到?页首\Z
+    command: page_home
+
+  - regex: \A(移动)?到?页尾\Z
+    command: page_end
+
+common:
+  - regex: \A开启调试\Z
+    command: active_debug
+
+  - regex: \A关闭调试\Z
+    command: deactive_debug
+
+  - regex: \A(听写|输入)\Z
+    command: mode_to_insert
+
+  - regex: \A(取消|esc|完成)\Z
+    command: cancel
+
+  - regex: \A(取消|完成)?输入(完毕)?\Z
+    command: mode_to_normal
+
+  - regex: \A大小写\Z
+    command: caps_lock
+
+  - regex: \A切换程序\Z
+    command: swich_app
+
+  - regex: \A(切换|跳转)[到]?(.+)\Z
+    command: active_app
+  
+  - regex: \A打开(.+)\Z
+    command: active_app
+
+  - regex: \A(回车|确认|确定|跳转)\Z
+    command: enter
+
+  - regex: \A空格\Z
+    command: space
+  
+  - regex: \A输入(.+)\Z
+    command: multiple_key_tap
